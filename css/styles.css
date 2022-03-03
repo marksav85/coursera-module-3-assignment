@@ -34,6 +34,9 @@ body {
 
 #nav-list {
   margin-top: 10px;
+  font-size: 1.8em
+  color: #951C49;
+  text-align: center;
 }
 #nav-list a {
   color: #951C49;
