@@ -1,14 +1,14 @@
 body {
   font-size: 16px;
   color: #fff;
-  background-color: #61122f;
+  background-color: #0E8449;
   font-family: 'Oxygen', sans-serif;
 }
 
 
 /** HEADER **/
 #header-nav {
-  background-color: #f6b319;
+  background-color: #FFC85A;
   border-radius: 0;
   border: 0;
 }
@@ -19,7 +19,7 @@ body {
 
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Lora', serif;
-  color: #557c3e;
+  color: #0F2B3D;
   font-size: 3em;
   text-transform: uppercase;
   font-weight: bold;
@@ -33,23 +33,19 @@ body {
 }
 
 #nav-list {
-  margin-top: 10px;
-  font-size: 1.8em
-  color: #951C49;
+  margin: 30px 20px 30px 20px;
+  color: #0F2B3D;
   text-align: center;
 }
-#nav-list a {
-  color: #951C49;
-  text-align: center;
-}
-#nav-list a:hover {
-  background: #E7E7E7;
-}
-#nav-list a span {
+#nav-list span {
+  margin: 30px 20px 30px 20px;
   font-size: 1.8em;
+  color: #0F2B3D;
+  font-weight: bold;
+  text-align: center;
 }
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
+  border: 1px solid #0F2B3D;
 }
 .navbar-header button.navbar-toggle {
   clear: both;
@@ -98,7 +94,7 @@ body {
   text-align: center;
   font-size: 1.5em;
   text-transform: uppercase;
-  background-color: #000;
+  background-color: #DD3131;
   color: #fff;
   opacity: .8;
 }
@@ -148,14 +144,15 @@ body {
   .navbar-brand p img { /* Star-K */
     height: 20px;
   }
-#collapsable-nav a { /*Collapsed nav menu glyph */
-  font-size: 1.2em;
+#collapsable-nav span { /*Collapsed nav menu glyph */
+  font-size: 2em;
+  margin-bottom: 20px;
   }
-#collapsable-nav a span { /*Collapsed nav menu glyph */
+/*#collapsable-nav a span { /*Collapsed nav menu glyph
   font-size: 1em;
   margin-right: 5px;
   }
-  /* End Header */
+   End Header */
 
   /* Home Page */
   .container .jumbotron {
